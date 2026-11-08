@@ -1,13 +1,4 @@
-__pycache__/
-*.py[cod]
-.env
-.env.*
-!.env.example
-*.session
-*.session-journal
-state.json
-state.json.tmp
-.venv/
-venv/
-.idea/
-.vscode/
+# Пример — никаких реальных секретов в GitHub!
+OWNER_USER_ID=123456789
+BLEACH_CHANNEL_ID=-1003593534577
+# BOT_TOKEN вводится отдельно в BotHost
