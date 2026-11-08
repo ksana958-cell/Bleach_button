@@ -1,7 +1,13 @@
-# Telegram BotFather token. BotHost normally injects BOT_TOKEN automatically.
-BOT_TOKEN=
-# Telegram ID of the owner; get it with /myid
-OWNER_USER_ID=
-# Suggested from your channel post links t.me/c/3593534577/*
-# Verify channel title using /status before publishing.
-BLEACH_CHANNEL_ID=-1003593534577
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+state.json
+state.json.tmp
+.venv/
+venv/
+.idea/
+.vscode/

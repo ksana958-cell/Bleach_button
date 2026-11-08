@@ -1,13 +1,36 @@
-__pycache__/
-*.py[cod]
-.env
-.env.*
-!.env.example
-*.session
-*.session-journal
-state.json
-state.json.tmp
-.venv/
-venv/
-.idea/
-.vscode/
+{
+  "title": "⚔️ БЛИЧ — НАВИГАЦИЯ",
+  "invite_link": "https://t.me/+gnBXocT0HL40YTRi",
+  "sections": [
+    {
+      "id": "original",
+      "title": "⚔️ Блич — оригинальный сериал",
+      "button": "⚔️ Блич (1–366)",
+      "description": "Выберите сюжетную арку. Здесь представлены только арки, опубликованные в канале. Пропуски в нумерации не являются ошибкой кнопок.",
+      "items": [
+        {"id": "substitute", "name": "Временный синигами", "episodes": "1–20", "url": "https://t.me/c/3593534577/23"},
+        {"id": "soul_entry", "name": "Сообщество душ: Проникновение", "episodes": "21–41", "url": "https://t.me/c/3593534577/34"},
+        {"id": "soul_rescue", "name": "Сообщество душ: Спасение", "episodes": "42–63", "url": "https://t.me/c/3593534577/77"},
+        {"id": "arrancar", "name": "Арранкары", "episodes": "110–127", "url": "https://t.me/c/3593534577/96"},
+        {"id": "hueco", "name": "Уэко Мундо", "episodes": "138–167", "url": "https://t.me/c/3593534577/127"},
+        {"id": "arrancar_vs", "name": "Арранкары против синигами", "episodes": "190–203", "url": "https://t.me/c/3593534577/142"},
+        {"id": "past", "name": "Прошлое", "episodes": "206–212", "url": "https://t.me/c/3593534577/150"},
+        {"id": "karakura", "name": "Арранкары: Фальшивый город Каракура", "episodes": "215–228", "url": "https://t.me/c/3593534577/176"},
+        {"id": "downfall", "name": "Арранкары: Разрушение", "episodes": "266–310", "url": "https://t.me/c/3593534577/217"},
+        {"id": "lost_agent", "name": "Потерянное удостоверение синигами", "episodes": "343–366", "url": "https://t.me/c/3593534577/241"}
+      ]
+    },
+    {
+      "id": "tybw",
+      "title": "🔥 Блич: Тысячелетняя кровавая война",
+      "button": "🔥 Тысячелетняя кровавая война",
+      "description": "Выберите часть истории или вариант озвучки. Диапазоны серий сохранены в том виде, в котором ты указал их для постов канала.",
+      "items": [
+        {"id": "tybw_amber", "name": "Кровавая война — Amber", "episodes": "366–379", "url": "https://t.me/c/3593534577/255"},
+        {"id": "tybw_deep", "name": "Кровавая война — DEEP", "episodes": "366–379", "url": "https://t.me/c/3593534577/269"},
+        {"id": "tybw_separation", "name": "Прощание — DEEP", "episodes": "380–392", "url": "https://t.me/c/3593534577/284"},
+        {"id": "tybw_conflict", "name": "Конфликт", "episodes": "393–405", "url": "https://t.me/c/3593534577/299"}
+      ]
+    }
+  ]
+}
